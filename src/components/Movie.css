@@ -1,0 +1,35 @@
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px whitesmoke solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    margin: 15px;
+    width: 330px;
+    height: 580px;
+    background-color: rgba(5, 5, 5, 0.695);
+  }
+  
+  .movie-container:hover {
+    transform: scale(1.05);
+    background-color: rgba(38, 87, 18, 0.26);
+  }
+  .movie-poster {
+    position: relative;
+  }
+  
+  img {
+    width: 300px;
+    height: 445px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .like-btn {
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    background-color: transparent;
+    border: none;
+  }
